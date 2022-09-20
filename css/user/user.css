@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10%;
+  border: none;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+header .logo {
+  width: 70px;
+  background-color: transparent;
+}
+
+header .tc {
+  position: absolute;
+  left: 235px;
+  color: #232323;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  background-color: transparent;
+}
+
+header a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #9a9a9a;
+  text-decoration: none;
+}
+
+.nav-link {
+  list-style: none;
+}
+
+.nav-link li {
+  display: inline-block;
+  padding: 0px 20px;
+  background-color: transparent;
+}
+
+.nav-link li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9a9a9a;
+  letter-spacing: -0.5px;
+  padding-right: 22px;
+  padding-left: 22px;
+  background-color: transparent;
+}
+
+.nav-link li a {
+  transition: all 0.3s ease 0s;
+  background-color: transparent;
+}
+
+.nav-link li a:hover {
+  color: #ce3232;
+  background-color: transparent;
+}
+
+.section-btn {
+  list-style: none;
+  background: #ce3232;
+  border: 0;
+  border-radius: 100px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: normal;
+  padding: 15px 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section-btn:hover {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.section-btn a {
+  padding: 0;
+  background-color: transparent;
+}
+
+.section-btn a:hover {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+#containerpesan {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #ce3232;
+}
+.container {
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.container .title {
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input,
+.kelasbox {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #dc3545;
+}
+
+form .button {
+  height: 45px;
+  margin: 35px 0;
+}
+form .button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #dc3545;
+}
+
+.costum-btn {
+  border-radius: 20px;
+  width: 120px;
+}
+
+.card-body .costum-btn {
+  border-radius: 20px;
+  width: 120px;
+}
+
+.modal-body .tanggal {
+  padding: 8px 19em 8px 8px;
+  border-radius: 5px;
+}
+
+.modal-body .costum-input {
+  padding: 8px 0em 8px 8px;
+}

@@ -1,0 +1,234 @@
+body {
+  background: #e2e2e2;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  font-size: 15px;
+}
+
+.sidebar {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2a2a2a, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2a2a2a, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+}
+
+.logo .navbar-brand {
+  width: 170px;
+}
+
+.layoutSidenav_content {
+  min-height: 100vh;
+  width: 100%;
+}
+
+hr.h-color {
+  background: #eee;
+}
+
+.sidebar li.active {
+  background: #ce3232;
+  border-radius: 8px;
+}
+
+.sidebar li.active a,
+.sidebar li.active a:hover {
+  color: #fff;
+}
+.sidebar li a {
+  color: #fff;
+}
+
+.sidebar i {
+  margin-right: 12px;
+}
+
+.sidebar {
+  display: flex;
+}
+.sidebar #layoutSidenav_nav {
+  flex-basis: 225px;
+  flex-shrink: 0;
+  transition: transform 0.15s ease-in-out;
+  z-index: 1038;
+  transform: translateX(-225px);
+}
+
+.sidebar #layoutSidenav_content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 0;
+  flex-grow: 1;
+  min-height: calc(100vh - 56px);
+  min-width: 100vh;
+}
+
+#layoutSidenav_content h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.tambah-section {
+  display: block;
+  width: 1225px;
+  height: 180px;
+  padding: 15px;
+  background: #979797;
+}
+
+#layoutSidenav_content .tambah-section h1 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.costum-jenis {
+  position: absolute;
+  top: 133px;
+  left: 40px;
+}
+
+.costum-jenis .jenis-kendaraan {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  padding: 6px 5em 6px 6px;
+  border-radius: 5px;
+}
+
+.costum-plat {
+  position: absolute;
+  top: 135px;
+  left: 260px;
+  min-height: 100vh;
+}
+
+.costum-rangka {
+  position: absolute;
+  top: 135px;
+  left: 495px;
+  min-height: 100vh;
+  min-width: 150px;
+}
+
+.costum-mesin {
+  position: absolute;
+  top: 135px;
+  left: 730px;
+  width: 250px;
+  min-height: 100vh;
+}
+
+.costum-kelas {
+  position: absolute;
+  top: 135px;
+  left: 990px;
+  min-height: 100vh;
+}
+
+.costum-kelas .kelas {
+  position: absolute;
+  top: 23px;
+  left: 0;
+  padding: 6px 8em 6px 6px;
+  border-radius: 5px;
+}
+
+.costum-btn {
+  position: absolute;
+  top: 85px;
+  left: 1145px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.section-bawah {
+  margin-left: 1px;
+  width: 1225px;
+}
+
+.costum-driver {
+  position: absolute;
+  top: 135px;
+  width: 215px;
+}
+
+.costum-ktp {
+  position: absolute;
+  top: 135px;
+  left: 990px;
+  width: 250px;
+}
+
+.costum-kelas-tiket {
+  position: absolute;
+  top: 133px;
+  left: 40px;
+}
+
+.costum-kelas-tiket .kelas-tiket {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  padding: 6px 7em 6px 6px;
+  border-radius: 5px;
+}
+
+.costum-tanggal {
+  position: absolute;
+  top: 134px;
+  left: 495px;
+  width: 230px;
+}
+
+.hapus {
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.costum-asal-tiket {
+  position: absolute;
+  top: 133px;
+  left: 257px;
+}
+
+.costum-asal-tiket .asal-tiket {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  padding: 6px 3em 6px 6px;
+  border-radius: 5px;
+}
+
+.costum-tujuan-tiket {
+  position: absolute;
+  top: 133px;
+  left: 375px;
+}
+
+.costum-tujuan-tiket .tujuan-tiket {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  padding: 6px 3em 6px 6px;
+  border-radius: 5px;
+}
+
+.costum-slot-kursi {
+  position: absolute;
+  top: 135px;
+  left: 860px;
+  width: 125px;
+}
+
+.costum-waktu {
+  position: absolute;
+  top: 135px;
+  left: 730px;
+  width: 125px;
+  min-height: 100vh;
+}

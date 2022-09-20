@@ -1,0 +1,24 @@
+* {
+  font-family: poppins;
+}
+
+.title h1 {
+  padding-top: 200px;
+  margin-top: 150px;
+}
+
+.form {
+  margin-top: 48px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.form-block-box {
+  background: #ce3232;
+}
+
+.form-block-box label {
+  color: #fff;
+}

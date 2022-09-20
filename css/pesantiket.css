@@ -1,0 +1,88 @@
+* {
+  font-family: poppins;
+}
+
+#wrapperall {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+#wrapper {
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1260px;
+}
+
+.menubar {
+  margin-top: -15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  background: rgb(241, 241, 241);
+}
+
+.textlogo {
+  font-weight: 600;
+  font-size: 28px;
+  color: #000000;
+  margin-top: -40px;
+  margin-left: 220px;
+  width: 50%;
+}
+
+.logo {
+  margin-top: 15px;
+  margin-left: 60px;
+  width: 10%;
+}
+
+.servive-block {
+  margin-top: 48px;
+  margin-left: 48px;
+  margin-right: 48px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.servive-block p,
+.servive-block h1,
+.servive-block label {
+  color: #fff;
+}
+
+.servive-block button {
+  background: #ce6932;
+  margin-top: 18px;
+}
+
+.servive-block-box {
+  background: #ce3232;
+}
+
+.table {
+  margin-left: 48px;
+}
+
+.servive-block-box3 {
+  background: #ce3232;
+}
+
+.menubar button {
+  background: #ce3232;
+  margin-top: -40px;
+  margin-left: 1180px;
+  margin-right: 0px;
+}
+
+.nav {
+  margin-left: 700px;
+  margin-top: -38px;
+}
+.smoothScroll {
+  color: #000000;
+  font-size: x-small;
+  padding-right: 24px;
+  padding-left: 24px;
+}
